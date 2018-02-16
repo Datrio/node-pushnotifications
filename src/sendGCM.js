@@ -70,6 +70,7 @@ const sendGCM = (regIds, data, settings) => {
     };
 
     let custom;
+
     if (typeof data.custom === 'string') {
         custom = {
             message: data.custom,
